@@ -13,7 +13,7 @@ services:
   backend:
     build: ./backend/
     env_file: .env
-    valumes:
+    volumes:
       - static:/backend_static
       - media/media
   frontend:
