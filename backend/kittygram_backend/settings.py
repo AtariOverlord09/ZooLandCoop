@@ -14,7 +14,7 @@ SECRET_KEY = DJANGO_KEY
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'https://superkittygram.ddns.net/']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
