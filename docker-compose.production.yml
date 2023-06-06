@@ -29,7 +29,7 @@ services:
     image: atarioverlord09/kittygram_nginx  # Качаем с Docker Hub
     env_file: .env
     volumes:
-      - static_volume:/staticfiles
+      - static_volume:/staticfiles/
       - media_volume:/app/media
     ports:
       - 8030:80 
