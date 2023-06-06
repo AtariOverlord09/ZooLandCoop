@@ -9,7 +9,7 @@
 В корне репозитория создайте файл tеsts.yml со следующим содержимым:
 ```yaml
 repo_owner: ваш_логин_на_гитхабе
-kittygram_domain: полная ссылка (https://доменное_имя) на ваш проект Kittygram
+kittygram_domain: полная ссылка (https://доменное_имя) на ваш проdект Kittygram
 taski_domain: полная ссылка (https://доменное_имя) на ваш проект Taski
 dockerhub_username: ваш_логин_на_докерхабе
 ```
