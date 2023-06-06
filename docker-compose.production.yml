@@ -17,8 +17,8 @@ services:
     image: atarioverlord09/kittygram_backend
     env_file: .env
     volumes:
-      - static_volume:/backend_static
-      - media_volume:/media
+      - static_volume:/backend_static/
+      - media_volume:/app/media/
   frontend:
     image: atarioverlord09/kittygram_frontend  # Качаем с Docker Hub
     env_file: .env
@@ -29,7 +29,7 @@ services:
     image: atarioverlord09/kittygram_nginx  # Качаем с Docker Hub
     env_file: .env
     volumes:
-      - static_volume:/staticfiles/
-      - media_volume:/media_files/
+      - static_volume:/static/
+      - media_volume:/app/media/
     ports:
       - 8030:80 
