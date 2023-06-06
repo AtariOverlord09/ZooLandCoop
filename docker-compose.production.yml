@@ -19,7 +19,6 @@ services:
     volumes:
       - static_volume:/backend_static
       - media_volume:/media
-      - pg_data_volume:/data
   frontend:
     image: atarioverlord09/kittygram_frontend  # Качаем с Docker Hub
     env_file: .env
