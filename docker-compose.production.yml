@@ -27,7 +27,7 @@ services:
       - static_volume:/frontend_static/
   gateway:
     depends_on:
-      - db
+      - backend
     image: atarioverlord09/kittygram_gateway
     env_file: .env
     volumes:
