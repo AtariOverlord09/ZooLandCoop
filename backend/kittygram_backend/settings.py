@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = DJANGO_KEY
 
-DEBUG = True
+DEBUG = False
 
 HOSTS = os.getenv('ALLOWED_HOSTS',  'localhost,127.0.0.1').split(',')
 
